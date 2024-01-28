@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  background-color: #fcd110de;
+  color: #ebe0e0;
+}
+
+body{
+  color: #fcd010;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.237) url(../images/fskqsdmhcmtrnadgcmunaflw1nh5tavkkv3n4kztdzp8kbz3mdyso1yajjfq2c1o-.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+}
+#curve{
+  fill: transparent;
+}
+.text{
+  font-size: 3.4rem;
+  font-weight: 900;
+  font-family:'Times New Roman', Times, serif;
+}
+.text_path{
+  fill: #fcd110de
+}
+.nav {
+  font-size: 2rem;
+  transition: color 2s;
+}
+.nav .nav-link{
+  position: relative;
+  /* top: 15%; */
+}
+.nav a:hover {
+  color: #fcd010 !important;
+}
+#open {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #2a2929a8;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: #ebe0e0;
+  padding: 10px;
+}
+#open i {
+  background: linear-gradient(to right, #fcf6f6, #fcd010);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
+#open i:hover {
+  transform: translateX(3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#open img {
+  position: absolute;
+  top: 20px;
+  left:5px;
+  width: 40px;
+}
+.open-foot i{
+  font-size: 20px;
+}
+#sideBar .open-foot i:hover{
+  cursor: pointer;
+  color: #fcd010;
+}
+#sideBar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 888;
+}
+#sideBar p{
+  font-size: 10px;
+}
+#sideBar nav{
+  background-color: rgba(0, 0, 0, 0.872);
+}
+.meal{
+  position: relative;
+  border: #f1e094 solid 2px;
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+.meal img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.meal .title{
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  color: #fcd010;
+  font-size: 2rem;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #05050574;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+.meal:hover .title{
+  top: 0;
+}
+

@@ -1,0 +1,35 @@
+#search-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6e00;
+  padding: 5px;
+  width: 300px;
+  height: 50px; 
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  transition: width 1.5s;
+}
+
+.input {
+  margin: 10px 50px;
+  margin-left: 20px;
+  width: 100%;
+  color: #ff6e00;
+  border: none;
+  background: transparent;
+  outline: none;
+  transition-delay: 0.5s;
+}
+ul li {
+    color: aliceblue;
+    display: inline;
+    margin-left: 40px;
+    font-family: sans-serif;
+  }
