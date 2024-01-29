@@ -208,7 +208,9 @@ function showMealDetails() {
         <span class="btn m-2 bg-danger-subtle">${MealDetails.meals[i].strTags}</span>
         <a href="${MealDetails.meals[i].strSource}" class=" w-25 btn d-block mt-2  bg-success text-white">Source</a>
         <a href="${MealDetails.meals[i].strYoutube}" class=" w-25 btn d-block mt-2  bg-danger text-white">YouTube</a>
-    </div>`
+    </div>
+    <hr>
+    `
     }
     displayMeals.innerHTML = container;
 }
