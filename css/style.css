@@ -11,7 +11,7 @@
 body{
   color: #fcd010;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.237) url(../images/fskqsdmhcmtrnadgcmunaflw1nh5tavkkv3n4kztdzp8kbz3mdyso1yajjfq2c1o-.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0.237) url(../images/47156d8aa470b276c3ee0e4ebf08ff03.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -117,3 +117,12 @@ body{
   top: 0;
 }
 
+.Ingredients{
+  cursor: pointer;
+  border: #f1e094 solid 1px;
+  border-radius: 10px;
+}
+.Ingredients p{
+  height: 100px !important;
+  overflow: hidden;
+}

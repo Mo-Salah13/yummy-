@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy.Test</title>
+    <link rel="shortcut icon" href="images/images1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="sideBar">
+        <nav class="nav flex-column">
+            <a onclick="homeMeal()" class="nav-link text-white" href="index.html">Home</a>
+            <a onclick="" class="nav-link text-white" href="#">Search</a>
+            <div class="open-foot ps-2  position-absolute bottom-0 text-white">
+                <i class="fa-brands mx-1 fa-facebook-f"></i>
+                <i class="fa-brands mx-1 fa-twitter"></i>
+                <i class="fa-brands mx-1 fa-pinterest"></i>
+                <p>CopyRight <span class="text-warning ">©</span> 2024 All <br> Rights  Reserved.</p>
+            </div>
+        </nav>
+        <div id="open">
+            <div><img src="images/images1.png" alt="Yummy logo"></div>
+            <i class="fa-solid fa-angles-right fa-2x"></i>
+        </div>
+    </header>
+
+    <section id="Home">
+        <div class="container">
+            <div class="home_head text-center">
+                <svg width="490" height="150" style="padding-left: 3%;">
+                    <path id="curve" d="M 0 150 C 20 120, 150 0, 450 140"></path>
+                    <text class="text" text-anchor="middle">
+                        <textPath class="text_path" href="#curve" startOffset="50%">
+                            ❀⊱Search⊰❀
+                            <h2>Search By Name Or First Letter Of Meal </h2>
+                            <div class="border border-warning-subtle mb-4"></div>
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+            <div class="row g-4 bg-gradient rounded-3 justify-content-center ">
+                <div class="col-md-12 ">
+                    <form class="d-flex  " role="search">
+                        <input class="form-control bg-dark-subtle text-black searchInputs " type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button onclick="getMealByName()"  class="btn btn-outline-warning ms-2 "
+                            type="button">Search</button>
+                    </form>
+                    
+                    <div class="row pt-4" id="searchResult">
+                        <!-- <div class="col-md-3 ">
+                            <div class="meal">
+                                <img class="image" src="images/meal-3.jpg" alt="Meal Photo">
+                                <a href="#" class="title">${}</a>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="Main.js/bootstrap.bundle.min.js"></script>
+    <script src="Main.js/jquery-3.7.1.min.js"></script>
+    <script src="Main.js/script.js"></script>
+</body>
+
+</html>

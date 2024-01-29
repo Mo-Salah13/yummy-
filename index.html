@@ -14,12 +14,12 @@
 <body>
     <header id="sideBar">
         <nav class="nav flex-column">
-            <a class="nav-link text-white" onclick="homeMeal()" href="#">Home</a>
-            <a class="nav-link text-white" href="#">Search</a>
-            <a class="nav-link text-white" href="#" onclick="getCategories()" >Categories</a>
-            <a class="nav-link text-white" href="#">Area</a>
-            <a class="nav-link text-white" href="#">Ingredients</a>
-            <a class="nav-link text-white" href="#">Contact Us</a>
+            <a onclick="homeMeal()" class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link text-white" href="search.html">Search</a>
+            <a onclick="getCategories()" class="nav-link text-white" href="#">Categories</a>
+            <a onclick="getAreas()" class="nav-link text-white" href="#">Area</a>
+            <a onclick="getIngredient()" class="nav-link text-white" href="#">Ingredients</a>
+            <a onclick="showForm()" class="nav-link text-white" href="#">Contact Us</a>
             <div class="open-foot ps-2 position-absolute bottom-0 text-white">
                 <i class="fa-brands mx-3 fa-facebook-f"></i>
                 <i class="fa-brands mx-3 fa-twitter"></i>
@@ -46,20 +46,14 @@
                     </text>
                 </svg>
             </div>
-            <div class="row g-4 " id="displayMeals">
-                <div class="col-md-3 ">
-                    <div class="meal">
-                        <img class="image" src="images/meal-3.jpg" alt="Meal Photo">
-                        <a href="#" class="title">Pizza</a>
-                    </div>
-                </div>
+            <div class="row g-4 bg-gradient rounded-3 justify-content-center " id="displayMeals">
             </div>
         </div>
     </section>
 
     <script src="Main.js/bootstrap.bundle.min.js"></script>
     <script src="Main.js/jquery-3.7.1.min.js"></script>
-    <script src="Main.js/script.js" ></script>
+    <script src="Main.js/script.js"></script>
 </body>
 
 </html>
