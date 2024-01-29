@@ -206,8 +206,8 @@ function showMealDetails() {
         <span class="btn  m-2 bg-info-subtle">${MealDetails.meals[i].strMeasure13} ${MealDetails.meals[i].strIngredient13}</span>
         <h4> ⊱ Tags ⊰:  </h4>
         <span class="btn m-2 bg-danger-subtle">${MealDetails.meals[i].strTags}</span>
-        <a href="${MealDetails.meals[i].strSource}" class=" w-25 btn d-block mt-2  bg-success text-white">Source</a>
-        <a href="${MealDetails.meals[i].strYoutube}" class=" w-25 btn d-block mt-2  bg-danger text-white">YouTube</a>
+        <a href="${MealDetails.meals[i].strSource}" target="_blank" class=" w-25 btn d-block mt-2  bg-success text-white">Source</a>
+        <a href="${MealDetails.meals[i].strYoutube}" target="_blank" class=" w-25 btn d-block mt-2  bg-danger text-white">YouTube</a>
     </div>
     <hr>
     `
