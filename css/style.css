@@ -126,3 +126,7 @@ body{
   height: 100px !important;
   overflow: hidden;
 }
+.tag{
+  cursor: text;
+  color: black !important;
+}
